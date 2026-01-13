@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;  /* Fondo gris claro */
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #ee9e0a;  /* Texto oscuro */
+  font-size: 36px;
+}
+
+p {
+  color: #ec1010;  /* Gris medio */
+  font-size: 20px;
+}
+<button>Haz clic aquí</button>
+
+img {
+  border-radius: 10px;   /* Esquinas redondeadas */
+  margin: 20px 0;        /* Espacio arriba y abajo */
+}
+
+button {
+  background-color: #007bff; /* Azul bonito */
+  color: white;              /* Texto blanco */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;           /* Cambia el cursor al pasar por encima */
+}
+
+button:hover {
+  background-color: #0056b3; /* Se oscurece al pasar el ratón */
+}
+section {
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 18px;
+  color: #555;
+}
+
+#hero {
+  background-color: #e0f7fa;
+}
+
+#hero button, #services button {
+  margin-top: 15px;
+}
+nav {
+  background-color: #007bff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1e7e34;
+}
